@@ -5,6 +5,14 @@ import { CiCircleChevRight } from 'react-icons/ci'
 import { Link } from 'react-router-dom'
 
 export function Footer(){
+
+    const scrollToTop = () => {
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth'
+        });
+    };
+
     return(
         <footer className="w-full mt-20 bg-[#D3ADA3] text-white m-0">
             <div className="flex flex-col md:flex-row items-center justify-between gap-20 p-10 max-w-7xl m-auto">
@@ -27,7 +35,7 @@ export function Footer(){
             <hr />
 
             <div className='flex flex-col md:flex-row gap-10 items-center justify-between p-10 max-w-7xl m-auto'>
-                <Link to='/'>
+                <Link to='/' onClick={scrollToTop}>
                     <img className='h-20' src={logo} alt="Logo DS" />
                 </Link>
                 
