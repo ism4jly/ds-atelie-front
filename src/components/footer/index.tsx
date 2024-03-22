@@ -18,7 +18,7 @@ export function Footer(){
                     <input className='mr-4 p-1 bg-transparent border-b-2 focus:outline-none placeholder-white text-white' type="mail" placeholder="Seu melhor email" />
 
                     <button className='flex items-center bg-white p-1 rounded-lg shadow-md'>
-                        <p className='font-bold text-white ml-3 text-[#D3ADA3]'>Cadastrar</p>
+                        <p className='font-bold ml-3 text-[#D3ADA3]'>Cadastrar</p>
                         <CiCircleChevRight size={23}/>
                     </button>
                 </form>
@@ -81,7 +81,7 @@ export function Footer(){
                     </li>
                 </ul>
                 <div>
-                    <ul>
+                    <ul className='mb-5'>
                         <p className='text-lg font-bold mb-3'>Políticas</p>
                         <li>
                             <a href="">Política de Garantia</a>
