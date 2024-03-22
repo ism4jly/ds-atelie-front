@@ -5,7 +5,7 @@ import { FiUser, FiHeart, FiShoppingBag, FiSearch, FiMenu } from 'react-icons/fi
 
 export function Header(){
     return(
-        <div className='text-white w-full flex items-center justify-center h-50 bg-[#D3ADA3] drop-shadow mb-4 flex-col'>
+        <div className='text-white mb-0 w-full flex items-center justify-center h-50 bg-[#D3ADA3] drop-shadow flex-col'>
             <header className='flex w-full max-w-7xl items-center justify-evenly px-4 mx-auto p-10'>
                 <Link to='/'>
                     <img
