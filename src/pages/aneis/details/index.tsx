@@ -6,6 +6,7 @@ import anel from '../../../assets/aneis.png'
 
 
 export function Details(){
+
     return(
         <Container>
             <div className="flex flex-col justify-center">

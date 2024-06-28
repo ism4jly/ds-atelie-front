@@ -24,7 +24,7 @@ export function Aneis(){
 
                 <hr className="mt-5 mb-5 border-1 border-gray-300" />
 
-                <Link to='' className="bg-[#D3ADA3] flex p-3 items-center justify-center rounded-lg">
+                <Link to='/aneis/detalhes' className="bg-[#D3ADA3] flex p-3 items-center justify-center rounded-lg">
                     <span className="font-bold mr-2 uppercase text-white">Comprar agora</span>
                     <FaWhatsapp color={'white'} size={23}/>
                 </Link>

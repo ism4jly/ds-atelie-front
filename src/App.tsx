@@ -10,6 +10,9 @@ import { Pulseiras } from "./pages/pulseiras";
 import { Layout } from "./components/layout";
 import { Login } from "./pages/login";
 import { Register } from "./pages/register";
+import { Details } from "./pages/aneis/details";
+import Admin from "./pages/admin";
+
 
 const router = createBrowserRouter([
   {
@@ -22,6 +25,10 @@ const router = createBrowserRouter([
       {
         path: "/aneis",
         element: <Aneis/>
+      },
+      {
+        path: "/aneis/detalhes",
+        element: <Details/>
       },
       {
         path: "/brincos",
@@ -48,6 +55,10 @@ const router = createBrowserRouter([
   {
     path: "/register",
     element: <Register/>
+  },
+  {
+    path: "/admin",
+    element: <Admin/>
   }
 ])
 

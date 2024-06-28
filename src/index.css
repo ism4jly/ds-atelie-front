@@ -9,3 +9,11 @@ body {
   color: #1F1F1F;
   font-family: Roboto, sans-serif;
 }
+
+div.swiper-button-prev,
+div.swiper-button-next {
+    color: #1F1F1F;
+}
+
+
+
